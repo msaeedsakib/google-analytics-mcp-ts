@@ -1,0 +1,59 @@
+{
+  "name": "@saeedsakib/ga4-mcp",
+  "version": "0.1.0",
+  "description": "Google Analytics 4 MCP server with a one-command service account setup for Claude Code, Cursor and Codex",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "ga4-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msaeedsakib/ga4-mcp.git"
+  },
+  "homepage": "https://github.com/msaeedsakib/ga4-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/msaeedsakib/ga4-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "google-analytics",
+    "ga4",
+    "analytics",
+    "claude",
+    "cursor",
+    "codex"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && bun build src/index.ts --target node --packages external --outdir dist",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "prepublishOnly": "bun run typecheck && bun test && bun run build"
+  },
+  "dependencies": {
+    "@google-analytics/admin": "^10.1.0",
+    "@google-analytics/data": "^7.2.0",
+    "@inquirer/prompts": "^8.7.2",
+    "@modelcontextprotocol/server": "^2.1.0",
+    "commander": "^15.0.0",
+    "picocolors": "^1.1.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/node": "^26.6.2",
+    "smol-toml": "^1.9.0",
+    "typescript": "^7.0.2"
+  }
+}

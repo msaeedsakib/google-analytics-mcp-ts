@@ -1,0 +1,7 @@
+ga4-mcp
+Copyright 2026 Saeed Sakib
+
+This product is a TypeScript rewrite of Google Analytics MCP Server
+(https://github.com/googleanalytics/google-analytics-mcp),
+Copyright 2025 Google LLC, licensed under the Apache License, Version 2.0.
+Tool definitions, argument hints and descriptions are derived from that project.
