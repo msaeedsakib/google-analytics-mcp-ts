@@ -7,7 +7,7 @@ import { keyPath } from "../paths";
 import { checkAccess } from "./access-check";
 import { log, reportAccess } from "./ui";
 
-const SKILL_URL = "https://github.com/msaeedsakib/ga4-mcp/blob/main/skills/ga4-mcp/SKILL.md";
+const SKILL_URL = "https://github.com/msaeedsakib/google-analytics-mcp-ts/blob/main/skills/ga4-mcp/SKILL.md";
 
 async function promptServiceAccount(): Promise<ServiceAccount> {
   let account: ServiceAccount | undefined;

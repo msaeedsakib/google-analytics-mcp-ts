@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msaeedsakib/ga4-mcp.git"
+    "url": "git+https://github.com/msaeedsakib/google-analytics-mcp-ts.git"
   },
-  "homepage": "https://github.com/msaeedsakib/ga4-mcp#readme",
+  "homepage": "https://github.com/msaeedsakib/google-analytics-mcp-ts#readme",
   "bugs": {
-    "url": "https://github.com/msaeedsakib/ga4-mcp/issues"
+    "url": "https://github.com/msaeedsakib/google-analytics-mcp-ts/issues"
   },
   "keywords": [
     "mcp",
