@@ -1,6 +1,6 @@
 {
   "name": "@saeedsakib/ga4-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google Analytics 4 MCP server with a one-command service account setup for Claude Code, Cursor and Codex",
   "license": "Apache-2.0",
   "type": "module",
